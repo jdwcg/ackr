@@ -1,0 +1,58 @@
+.spaceSub { height: 280px !important; }
+
+body { height: auto !important; }
+
+.containerMainSection1 { background: url("../ackr-imgs/submainimg.jpg") no-repeat; background-position: center; background-size: cover; width: 100%; height: 100vh !important; position: absolute; top: 0; z-index: 1; float: left; }
+.containerMainSection1 .containerHeight { height: 50vh !important; }
+.containerMainSection1 .container { height: 50vh; }
+.containerMainSection1 .container h1 { padding: 3rem 2em; text-align: center; color: #333; font-size: 4rem; font-weight: 100; letter-spacing: -4px; }
+@media (max-width: 780px) { .containerMainSection1 .container h1 { padding: 3rem 1em; font-size: 2.8rem; font-weight: 300; letter-spacing: -1px; } }
+@media (max-width: 640px) { .containerMainSection1 .container h1 { padding: 3rem 1em; font-size: 2rem; font-weight: 300; letter-spacing: -1px; } }
+.containerMainSection1 .container p { text-align: center; padding: 1rem 6em; }
+@media (max-width: 640px) { .containerMainSection1 .container p { padding: 1rem 1em; } }
+.containerMainSection1 .container .btnwrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.mainbottom h1 { text-align: center; padding: 4rem 0 0; }
+.mainbottom p { text-align: center; padding: 2rem 2em; }
+.mainbottom .btnwrapper { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; padding: 1rem 0 4rem; }
+
+#vison #line { font-size: 15px; }
+#vison #line p { text-align: center; }
+@media (max-width: 500px) {
+  #vison #line p br { display: none;}
+}
+@media (max-width: 800px) { #vison #line { display: block; }
+  #vison #line p { padding: 0 2em; }
+  /* #vison #line p br { display: none; } */
+  #vison #line p:first-child { margin-top: 120px; text-align: center; } }
+@media (max-width: 800px)  { #vison #line p:first-child { margin-top: 150px; } }
+@media (max-width: 480px)  { #vison #line p:first-child { margin-top: 130px; } }
+
+
+/*# sourceMappingURL=sub.css.map */
+
+.section01 .row {
+  display: flex;
+}
+.section01 .row .subMenuList {
+  flex: 2;
+}
+.section01 .row .subMenuList ul li a {
+  padding: .4rem 1em !important;
+}
+.section01 .row .col:last-child {
+  flex: 8;
+}
+
+/* 연구개요 */
+/* 인사말 */
+
+/* 비전 */
+/*
+.line-desc p { text-align: center; padding: 10rem 10em 0 !important; }
+@media (max-width: 1200px) { .line-desc p { padding: 10rem 2em 0 !important; } }
+@media (max-width: 480px) { .line-desc p { padding: 7rem 2em 0 !important; } }
+.line-desc ol { display: block; padding: 2rem 12em; }
+@media (max-width: 1200px) { .line-desc ol { padding: 2rem 6em; } }
+@media (max-width: 640px) { .line-desc ol { padding: 2rem 2em; } }
+.line-desc ol li { list-style-type: decimal; padding: 2rem 0; } */
